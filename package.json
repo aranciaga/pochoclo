@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+   "pochoclo": "bin/pochoclo.js"
+  },
   "author": "Rainbow",
   "license": "BSD",
   "dependencies": {

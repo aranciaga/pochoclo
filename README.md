@@ -1,4 +1,4 @@
-![](pochoclo.png)
+![](https://github.com/rainbowintheshell/pochoclo/raw/master/pochoclo.png)
 
 # pochoclo
 Watch movies using torrents automatically via CLI
