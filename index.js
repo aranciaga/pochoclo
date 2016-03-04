@@ -13,7 +13,9 @@ var season, episode, subs_language
 
 var help_screen = function(){
 
-	fs.readFile('logo.dat', 'utf8', function (err,data) {
+	var path = require('path').basename(__dirname);
+
+	fs.readFile(path + '/' + 'logo.dat', 'utf8', function (err,data) {
 	  	console.log(chalk.yellow(data)) 
 		console.log(chalk.cyan("\nFor Movies:\npochoclo --movie [name]"))
 		console.log(chalk.cyan("For TV Shows:\npochoclo --tvshow [name] [season] [episode]\n"))

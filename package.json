@@ -1,13 +1,22 @@
 {
   "name": "pochoclo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Watch movies using torrents via CLI",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": ["torrent", "kickass", "kat", "movies",
+	       "streaming", "peerflix", "pochoclo"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rainbowintheshell/pochoclo.git"
+  },
   "bin": {
    "pochoclo": "bin/pochoclo.js"
+  },
+  "bugs": {
+    "url": "https://github.com/rainbowintheshell/pochoclo/issues"
   },
   "author": "Rainbow",
   "license": "BSD",
