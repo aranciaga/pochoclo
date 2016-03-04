@@ -41,6 +41,14 @@ if(type == "--tvshow"){
 		help_screen() 
 	}
 
+	if(season.toString().length<=1){
+		season = "0" + season.toString()
+	}
+
+	if(episode.toString().length<=1){
+		episode = "0" + episode.toString()
+	}
+
 }
 
 
