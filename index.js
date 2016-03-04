@@ -29,8 +29,8 @@ if( types.indexOf(type) == -1){
 	help_screen() 
 }
 
-if ( process.argv.indexOf("--subs") != -1 ) {  
-	subs_language = process.argv[ process.argv.indexOf("--subs") + 1 ] 
+if ( process.argv.indexOf("--sub") != -1 ) {  
+	subs_language = process.argv[ process.argv.indexOf("--sub") + 1 ] 
 }
 
 
