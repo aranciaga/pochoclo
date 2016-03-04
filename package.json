@@ -1,0 +1,19 @@
+{
+  "name": "pochoclo",
+  "version": "0.0.1",
+  "description": "Watch movies using torrents via CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rainbow",
+  "license": "BSD",
+  "dependencies": {
+    "async": "^1.5.2",
+    "chalk": "^1.1.1",
+    "download": "^4.4.3",
+    "kickass-torrent": "0.0.3",
+    "opensubtitles-api": "^2.4.0",
+    "peerflix": "^0.32.4"
+  }
+}
