@@ -12,6 +12,8 @@ You can install pochoclo via NPM
   $ sudo npm install -g pochoclo
 ```
 
+You need to have installed VLC
+
 # Using pochoclo
 
 Using pochoclo is pretty easy and automatic. Here is an image:
