@@ -13,7 +13,7 @@ var season, episode, subs_language
 
 var help_screen = function(){
 
-	var path = require('path').basename(__dirname);
+	var path = require('path').resolve(__dirname);
 
 	fs.readFile(path + '/' + 'logo.dat', 'utf8', function (err,data) {
 	  	console.log(chalk.yellow(data)) 
