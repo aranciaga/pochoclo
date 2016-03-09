@@ -25,7 +25,7 @@ var help_screen = function(){
 	
 }
 
-if( types.indexOf(type) == -1){
+if( types.indexOf(type) == -1 ){
 	help_screen() 
 }
 
