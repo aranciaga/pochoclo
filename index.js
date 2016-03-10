@@ -2,7 +2,6 @@ var async    = require('async')
 	stream   = require('./lib/stream.js')
 	subs     = require('./lib/subs.js')
 	kat      = require('./lib/kat.js')
-	spawn    = require('child_process').spawn
 	fs       = require('fs')
 	chalk	 = require('chalk')
 	type     = process.argv[2]
