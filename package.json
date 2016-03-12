@@ -1,6 +1,6 @@
 {
   "name": "pochoclo",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Watch movies using torrents via CLI",
   "main": "index.js",
   "scripts": {
