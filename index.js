@@ -55,8 +55,7 @@ if(type == "--tvshow"){
 
 async.waterfall([
 	async.apply(kat.search, name, type, subs_language, season, episode),
-	stream.startStreaming,
 	subs.searchSub,
 	subs.downloadSub,
-	stream.startPlayer
+	stream.startStreaming
 ]); 
