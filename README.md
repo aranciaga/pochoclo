@@ -1,3 +1,5 @@
+### IMPORTANT: Kickass torrents is dead. Use [blackpearl](https://github.com/rainbowintheshell/blackpearl)!. is an improved version of pochoclo and it use TPB for torrents.
+
 ![](https://github.com/rainbowintheshell/pochoclo/raw/master/pochoclo.png)
 
 # pochoclo
